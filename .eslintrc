@@ -1,15 +1,51 @@
 {
   "ecmaFeatures": {
-    "modules": true,
+    "arrowFunctions": true,
+    "binaryLiterals": false,
     "blockBindings": true,
+    "classes": true,
+    "defaultParams": true,
     "destructuring": true,
-    "templateStrings": true
+    "forOf": true,
+    "generators": true,
+    "modules": false,
+    "objectLiteralComputedProperties": true,
+    "objectLiteralDuplicateProperties": false,
+    "objectLiteralShorthandMethods": true,
+    "objectLiteralShorthandProperties": true,
+    "octalLiterals": false,
+    "regexUFlag": false,
+    "regexYFlag": false,
+    "restParams": true,
+    "spread": true,
+    "superInFunctions": true,
+    "templateStrings": true,
+    "unicodePointEscapes": true,
+    "globalReturn": false,
+    "jsx": true
   },
-  "env": {
+ "env": {
+    "browser": true,
     "node": true
   },
   "rules": {
     "semi": [2, "always"],
-    "quotes": [2, "single"]
+    "quotes": [2, "single"],
+    "arrow-parens": [1],
+    "arrow-spacing": [1],
+    "constructor-super": [1],
+    "generator-star-spacing": [1],
+    "no-class-assign": [2],
+    "no-const-assign": [2],
+    "no-dupe-class-members": [2],
+    "no-this-before-super": [2],
+    "no-var": [1],
+    "object-shorthand": [1],
+    "prefer-arrow-callback": [1],
+    "prefer-const": [1],
+    "prefer-spread": [1],
+    "prefer-reflect": [0],
+    "prefer-template": [1],
+    "require-yield": [0]
   }
 }
