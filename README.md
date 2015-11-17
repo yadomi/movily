@@ -8,12 +8,12 @@ Data are extracted from [SensCritique](http://senscritique.fr)
 Installation
 ------------
 
-  git clone https://github.com/yadomi/movily && cd movily
-  npm install
+    git clone https://github.com/yadomi/movily && cd movily
+    npm install
 
 Since this module use es2015 feature, you may need to install `babel-node`:
 
-  npm install babel-cli
+    npm install babel-cli
 
 Usage
 -----
@@ -50,4 +50,14 @@ $ babel-node app.js 2015-11-15
   "poster": "http://media.senscritique.com/media/000012343914/150/Macbeth.jpg"
 },
 ...
+```
+
+API
+---
+
+Movily can also be used in your code since its expose this lonely method: `getReleasingMovies()`:
+
+```js
+  const movily = require('movily');
+  const movie_of_the_week = movily.getReleasingMovies(new Date());
 ```
