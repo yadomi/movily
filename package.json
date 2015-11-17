@@ -4,6 +4,10 @@
   "description": "Return a JSON object of movie release of the week from senscritique.com",
   "main": "index.js",
   "bin": "./bin/movily",
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/yadomi/movily"
+  },
   "dependencies": {
     "cheerio": "^0.19.0",
     "moment": "^2.10.6",
