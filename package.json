@@ -1,14 +1,15 @@
 {
   "name": "movily",
   "version": "1.0.0",
-  "description": "CLI tool returning a JSON object of movie release from senscritique.com",
-  "main": "app.js",
+  "description": "Return a JSON object of movie release of the week from senscritique.com",
+  "main": "index.js",
   "dependencies": {
     "cheerio": "^0.19.0",
     "moment": "^2.10.6",
     "request": "^2.65.0"
   },
   "devDependencies": {
+    "babel-cli": "^6.1.18",
     "babel-eslint": "^4.1.5",
     "babel-plugin-transform-es2015-destructuring": "^6.1.18"
   },
