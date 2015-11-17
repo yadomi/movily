@@ -1,9 +1,1 @@
-'use strict';
-
-const movily = require('./lib/movily.js');
-
-const args = process.argv.slice(2);
-const inputDate = args[0] ? new Date(args[0]) : new Date();
-
-movily.getReleasingMovies(inputDate)
-  .then((movies) => console.log(JSON.stringify(movies)));
+require('./lib/movily.js');
